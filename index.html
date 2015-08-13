@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Choose Your Adventure!</title>
+		
+		<!--This tells the browser how to read this doc -->
+		<meta charset="UTF-8">
+		
+		<!--This stops us from scrolling -->
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		
+		<!--jquery is a javascript library-->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		
+		<!-- jquery mobile adds functionallity for phones -->
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		
+		<script src="js/storyData.js"></script>
+		
+		<script src="js/makepages.js"></script>
+		
+		<!--This is jquery mobile's style -->
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/greenLeaves.css">
+		
+	</head>
+	
+	<body>
+	
+		<!-- This is a page in jquery mobile -->
+		<div data-role="page" id="index">
+			<!-- This is the mobile header -->
+			<div data-role="header">
+				<h1>Home Page</h1>
+			</div>
+			<!-- This is the content -->
+			<div data-role="content">
+				<!-- This is a link that is told to look like a button -->
+				<a href="#page1" data-role="button">Play!</a>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
